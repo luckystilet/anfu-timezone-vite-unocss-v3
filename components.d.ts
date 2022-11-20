@@ -7,6 +7,11 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Hello: typeof import('./src/components/Hello.vue')['default']
+    ActionBar: typeof import('./src/components/ActionBar.vue')['default']
+    DarkSwitcher: typeof import('./src/components/DarkSwitcher.vue')['default']
+    Navbar: typeof import('./src/components/Navbar.vue')['default']
+    TimeSchedule: typeof import('./src/components/TimeSchedule.vue')['default']
+    TimezoneItem: typeof import('./src/components/TimezoneItem.vue')['default']
+    TimezoneSearch: typeof import('./src/components/TimezoneSearch.vue')['default']
   }
 }
